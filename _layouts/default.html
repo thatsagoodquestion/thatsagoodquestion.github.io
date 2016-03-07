@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>{{ page.title }}</title>
+  <link rel="stylesheet" type="text/css" href="/assets/css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
+</head>
+<body>
+  <div class="wrapper">
+    <div class="main-nav">
+      {% include nav.html %}
+    </div>
+
+    <div class="content">
+      {{ content }}
+    </div>
+  </div>
+</body>
+</html>
