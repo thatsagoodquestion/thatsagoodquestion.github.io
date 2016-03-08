@@ -1,2 +1,3 @@
 name: That's a Good Question
 markdown: redcarpet
+excerpt_separator: <!--more-->

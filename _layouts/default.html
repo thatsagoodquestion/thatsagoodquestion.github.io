@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>{{ page.title }}</title>
+  <title>{% if page.title %}{{ page.title }} // {% endif %}{{ site.name }}</title>
   <link rel="stylesheet" type="text/css" href="/assets/css/normalize.css">
-  <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
+<link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet' type='text/css'>  <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
 </head>
 <body>
   <div class="wrapper">

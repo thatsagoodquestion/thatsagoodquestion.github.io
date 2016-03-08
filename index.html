@@ -1,11 +1,22 @@
 ---
 layout: default
-title: All Posts
 ---
-<h1>{{ page.title }}</h1>
-  <ul class="posts">
+
+  <ul class="main-posts">
 
     {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+      <li>
+        <h1>
+          <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+        </h1>
+        <div class="main-posted-on">
+          <span>posted on {{ post.date | date_to_string }} by&nbsp;</span>
+          <a href="/rudzainy" alt="Rudzainy">
+            <img src="/assets/img/{{ post.author }}.png" class="main-post-avatar">
+          </a>
+        </div>
+        <hr class="main-post-hr"/>
+        {{ post.excerpt }}
+      </li>
     {% endfor %}
   </ul>
