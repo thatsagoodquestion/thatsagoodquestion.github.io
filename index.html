@@ -2,21 +2,67 @@
 layout: default
 ---
 
-  <ul class="main-posts">
-
-    {% for post in site.posts %}
-      <li>
-        <h1>
+<div class="main-posts">
+  {% for post in site.posts %}
+    {% if forloop.index == 1 %}
+      <div class="highlight">
+        <div class="highlight-title">
           <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-        </h1>
-        <div class="main-posted-on">
-          <span>posted on {{ post.date | date_to_string }} by&nbsp;</span>
-          <a href="/rudzainy" alt="Rudzainy">
-            <img src="/assets/img/{{ post.author }}.png" class="main-post-avatar">
-          </a>
         </div>
-        <hr class="main-post-hr"/>
-        {{ post.excerpt }}
-      </li>
-    {% endfor %}
-  </ul>
+        <div class="featured-image">
+          {% if post.image %}
+            <img src="/assets/img/{{ post.image }}">
+          {% else %}
+            <img src="/assets/img/desktop.jpg">
+          {% endif %}
+        </div>
+        <div class="highlight-subtext">
+          <span class="highlight-subtext-author">{{ post.author }}:</span> <span class="highlight-subtext-excerpt">{{ post.excerpt }}</span> <a href="{{ post.url }}" title="{{ post.title }}"><span class="highlight-subtext-more"><i><b>• More on page 2</b></i></span></a>
+        </div>
+      </div>
+    {% elsif forloop.index == 2 or forloop.index == 3 or forloop.index == 4 %}
+      {% if forloop.index == 2 %}
+        <hr class="hr-bold hr-col-50"/>
+        <div class="col-50-highlights-container">
+          <div class="col-50-highlights">highlights</div>
+        </div>
+      {% endif %}
+      <div class="col-50">
+        {% if post.image %}
+          <div class="featured-image">
+            <img src="/assets/img/{{ post.image }}">
+          </div>
+        {% endif %}
+        <a href="{{ post.url }}" title="{{ post.title }}" class="col-50-title"><h1>{{ post.title }}</h1></a>
+        <div class="col-50-author"><h3>by <span>{{ post.author }}</span></h3></div>
+        <div class="col-50-date">{{ post.date | date_to_string }}</div>
+        <div class="col-50-excerpt">{{ post.excerpt }}</div>
+        <div class="col-50-more">
+          <a href="{{ post.url }}" title="{{ post.title }}">More on page {{ post.title.size | divided_by: 3 }}</a>
+        </div>
+      </div>
+    {% else %}
+      {% if forloop.index == 5 %}
+        <div class="clearfix"></div>
+        <hr class="hr-bold"/>
+        <div class="more-post-inside-container">
+          <div class="more-post-inside">inside</div>
+        </div>
+        <article>
+          <div id="main-footer">
+            {% include footer.html %}
+          </div>
+      {% endif %}
+        <div class="more-post">
+          {% if post.image %}
+            <div class="featured-image">
+              <img src="/assets/img/{{ post.image }}">
+            </div>
+          {% endif %}
+          <span class="more-post-title"><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></span>. <span class="more-post-excerpt">{{ post.excerpt }}</span>
+        </div>
+    {% endif %}
+  {% endfor %}
+  </article>
+
+</div>
