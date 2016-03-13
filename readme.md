@@ -1,8 +1,11 @@
+[http://thatsagoodquestion.github.io](http://thatsagoodquestion.github.io), a blog created with [Jekyll](https://jekyllrb.com/)
+
 # Writing a Post
 
 ### Post Header
 
 Sample:
+
     ---
     layout: post
     title: "Poutine synth small batch green juice aesthetic"
@@ -20,3 +23,13 @@ Sample:
 |author|Your name in lowercase|
 |image|Featured image for the post. The image should be saved under `/assets/img` folder with a `.png` extension|
 |nocolumn|Set to `true` if you don't want to use the newspaper columns layout for your post|
+
+### Writers
+
+1. [Estelle](http://github.com/estelleccl)
+2. [Faris](http://github.com/hewrin)
+3. [Jalen](http://github.com/JalenOng)
+4. [Ming Xiang](http://github.com/mingxiangchan)
+5. [Ping](http://github.com/pynkvalerian)
+6. [Rudzainy](http://github.com/rudzainy)
+7. [Shin Yin](http://github.com/bestofthesoul)
