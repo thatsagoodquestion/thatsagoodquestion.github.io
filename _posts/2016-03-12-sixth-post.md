@@ -1,17 +1,15 @@
 ---
 layout: post
-title: "Gluten-free +1 synth VHS shoreditch"
+title: "I am testing this out"
 date: 2016-03-12
 author: jalen
 image: image-slider-2.jpg
 ---
 
-Jean shorts tilde 90's keytar. DIY occupy next level bushwick vice pitchfork cardigan crucifix blog, you probably haven't heard of them 8-bit.
+Last weekend, I participated in an awesome program called Design Your Personal Legend. It’s the brainchild of Annie. It was such an amazing experience and the organizers, @Ingenius, and the trainers deserve all the credit. Thank you Annie, Jonathan Quek, Candice Lee, Tan Lionel and all the participants for making it an awesome experience for me. 
 
-<!--more-->
+Every session forces you to challenge your perceptions and unlearn. Every activity is meant to push you off your comfort zone. 
 
-Tofu microdosing etsy hoodie craft beer, cold-pressed put a bird on it pickled ugh food truck. Seitan synth mumblecore, meditation vinyl vice forage lo-fi scenester kinfolk. Poutine synth small batch green juice aesthetic. Slow-carb church-key ugh +1 readymade. Gluten-free +1 synth VHS shoreditch.
+It is a reminder that to do things that matter, you have to push your limits, take a leap of faith and just do it because you will never feel 100% ready. 
 
-Brunch try-hard cronut, gluten-free franzen ennui trust fund fap meggings vice food truck kitsch jean shorts health goth. Literally chicharrones godard pitchfork waistcoat tote bag. Bushwick tote bag biodiesel banjo. Selfies mixtape chillwave readymade. Jean shorts tilde 90's keytar. DIY occupy next level bushwick vice pitchfork cardigan crucifix blog, you probably haven't heard of them 8-bit.
-
-Microdosing asymmetrical poutine fashion axe four loko migas, williamsburg normcore chicharrones quinoa flexitarian forage farm-to-table put a bird on it scenester. Bespoke readymade heirloom, freegan roof party beard post-ironic. Art party tilde paleo, affogato skateboard vice lumbersexual try-hard drinking vinegar fixie squid marfa crucifix.
+I have taken up a 30-day challenge to kickstart my dream to be a changemaker. Look out for my 10 interesting postings in the next 30-days!
