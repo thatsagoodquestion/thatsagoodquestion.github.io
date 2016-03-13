@@ -2,6 +2,8 @@
 
 # Writing a Post
 
+Your post can be in [Markdown](https://daringfireball.net/projects/markdown/syntax) or HTML format
+
 ### Post Header
 
 Sample:
@@ -24,7 +26,11 @@ Sample:
 |image|Featured image for the post. The image should be saved under `/assets/img` folder with a `.png` extension|
 |nocolumn|Set to `true` if you don't want to use the newspaper columns layout for your post|
 
-### Writers
+### Saving a post
+
+Save your file under the `_post` folder. The file name must be in `YYYY-MM-DD-post-title.md` or `YYYY-MM-DD-post-title.html` format.
+
+# Writers
 
 1. [Estelle](http://github.com/estelleccl)
 2. [Faris](http://github.com/hewrin)
