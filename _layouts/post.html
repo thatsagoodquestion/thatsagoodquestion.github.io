@@ -1,9 +1,30 @@
 ---
 layout: default
 ---
-<h1>{{ page.title }}</h1>
-<p class="meta">{{ page.date | date_to_string }}</p>
-
-<div class="post">
-  {{ content }}
+<div id="post-container">
+  {% if page.nocolumn == true %}
+    <div class="post">
+      <h1>{{ page.title }}</h1>
+      <p class="meta">{{ page.date | date_to_string }}</p>
+      <p>{{ content }}</p>
+      <div class="post-author post-author-nocolumn">
+        <img src="/assets/img/{{ page.author }}.png">
+        <h4>{{ page.author }}</h4>
+      </div>
+    </div>
+  {% else %}
+    <article class="post">
+      <h1>{{ page.title }}</h1>
+      <p class="meta">{{ page.date | date_to_string }}</p>
+      <p>{{ content }}</p>
+      <div class="post-author">
+        <img src="/assets/img/{{ page.author }}.png">
+        <h4>{{ page.author }}</h4>
+      </div>
+    </article>
+  {% endif %}
+  <div class="sidebar">
+    <hr class="hr-bold">
+    {% include sidebar.html %}
+  </div>
 </div>

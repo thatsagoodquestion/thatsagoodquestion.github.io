@@ -3,7 +3,6 @@ layout: post
 title: "VHS meggings poutine knausgaard"
 date: 2016-03-12
 author: ping
-image: image-slider-2.jpg
 ---
 
 Neutra VHS venmo put a bird on it church-key. Selfies knausgaard normcore distillery, kombucha fixie fashion axe. Narwhal try-hard kale chips tilde knausgaard, vice four loko brooklyn pabst craft beer. Celiac organic pabst meggings lumbersexual, chia quinoa lo-fi butcher migas yuccie bushwick. Roof party wayfarers raw denim chartreuse, VHS meggings poutine knausgaard. Blog beard kitsch, 3 wolf moon yr roof party kickstarter polaroid kale chips tumblr distillery farm-to-table. Retro cardigan PBR&B 90's leggings.
