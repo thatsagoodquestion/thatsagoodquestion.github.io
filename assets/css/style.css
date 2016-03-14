@@ -20,7 +20,7 @@ section {
   display: inline-block;
   margin:  0.25rem;
   padding:  1rem;
-  width:  960px;
+  width:  100%;
   background:  #efefef;
 }
 
@@ -51,7 +51,7 @@ ul {
 
 #main-nav {
   margin: 0;
-  width: 100%;
+  width: 960px;
   padding: 0 auto;
 }
 
@@ -150,7 +150,7 @@ ul {
 }
 
 .content {
-  width: 100%;
+  width: 960px;
   margin: 0 auto;
 }
 
