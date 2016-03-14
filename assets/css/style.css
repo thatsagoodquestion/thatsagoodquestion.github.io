@@ -51,9 +51,8 @@ ul {
 }
 
 #main-nav {
-  margin: 0;
   max-width: 960px;
-  padding: 0 auto;
+  margin: 0 auto;
 }
 
 #main-nav header {
