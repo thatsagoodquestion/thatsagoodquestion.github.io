@@ -3,6 +3,7 @@ layout: post
 title: "How to run Gitlab Server in Mac OSX using Virtualbox"
 date: 2016-03-29
 author: mingxiang
+nocolumn: true
 ---
 
 ### How to run Gitlab Server in Mac OSX using Virtualbox
